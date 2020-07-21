@@ -9,4 +9,3 @@ select 'There are a total of ', count(1), lower(occupation) + 's.'
 from occupations
 group by occupation
 order by count(1)
-
